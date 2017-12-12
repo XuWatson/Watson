@@ -1,4 +1,4 @@
-private  HttpSession session=ServletActionContext.getRequest().getSession();
+	private  HttpSession session=ServletActionContext.getRequest().getSession();
 	private String dt =new SimpleDateFormat("yyyyMMddHHmmss").format(Calendar.getInstance().getTime());
 	private  HttpServletRequest request=(HttpServletRequest)ActionContext.getContext().get(ServletActionContext.HTTP_REQUEST);
 
